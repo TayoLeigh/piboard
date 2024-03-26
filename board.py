@@ -5,7 +5,6 @@ import curses
 pygame.mixer.pre_init(44100, -16, 2, 512)
 pygame.init()
 
-up = pygame.mixer.Sound('wow.mp3')
 down = pygame.mixer.Sound('down.wav')
 left = pygame.mixer.Sound('left.wav')
 right = pygame.mixer.Sound('right.wav')
@@ -29,7 +28,8 @@ while True:
 		break
 	elif event == curses.KEY_UP:
 		screen.addstr(0, 0, "You pressed up!")
-		up.play()
+		pygame.mixer.music.load("wow.mp3")
+		pygame.mixer.music.play()
 	elif event == curses.KEY_DOWN:
 		screen.clear()
 		screen.addstr(0, 0, "You pressed down!")
