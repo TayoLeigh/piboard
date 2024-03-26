@@ -5,7 +5,7 @@ import curses
 pygame.mixer.pre_init(44100, -16, 2, 512)
 pygame.init()
 
-up = pygame.mixer.Sound('up.wav')
+up = pygame.mixer.Sound('wow.mp3')
 down = pygame.mixer.Sound('down.wav')
 left = pygame.mixer.Sound('left.wav')
 right = pygame.mixer.Sound('right.wav')
