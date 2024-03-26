@@ -42,6 +42,9 @@ while True:
 		screen.clear()
 		screen.addstr(0, 0, "You pressed right!")
 		right.play()
+	elif event == ord('w'):
+		pygame.mixer.music.load("wow.mp3")
+		pygame.mixer.music.play()
 	else:
 		screen.clear()
 		screen.addstr(0, 0, "That key doesn't do anything!")
