@@ -33,16 +33,46 @@ while True:
 	elif event == curses.KEY_DOWN:
 		screen.clear()
 		screen.addstr(0, 0, "You pressed down!")
-		down.play()
+		pygame.mixer.music.load("wow.mp3")
+		pygame.mixer.music.play()
 	elif event == curses.KEY_LEFT:
 		screen.clear()
 		screen.addstr(0, 0, "You pressed left!")
-		left.play()
+		pygame.mixer.music.load("wow.mp3")
+		pygame.mixer.music.play()
 	elif event == curses.KEY_RIGHT:
 		screen.clear()
 		screen.addstr(0, 0, "You pressed right!")
-		right.play()
+		pygame.mixer.music.load("wow.mp3")
+		pygame.mixer.music.play()
 	elif event == ord('w'):
+		screen.clear()
+		screen.addstr(0, 0, "You pressed w!")
+		pygame.mixer.music.load("wow.mp3")
+		pygame.mixer.music.play()
+	elif event == ord('a'):
+		screen.clear()
+		screen.addstr(0, 0, "You pressed a!")
+		pygame.mixer.music.load("wow.mp3")
+		pygame.mixer.music.play()
+	elif event == ord('s'):
+		screen.clear()
+		screen.addstr(0, 0, "You pressed s!")
+		pygame.mixer.music.load("wow.mp3")
+		pygame.mixer.music.play()
+	elif event == ord('d'):
+		screen.clear()
+		screen.addstr(0, 0, "You pressed d!")
+		pygame.mixer.music.load("wow.mp3")
+		pygame.mixer.music.play()
+	elif event == ord('f'):
+		screen.clear()
+		screen.addstr(0, 0, "You pressed f!")
+		pygame.mixer.music.load("wow.mp3")
+		pygame.mixer.music.play()
+	elif event == ord('g'):
+		screen.clear()
+		screen.addstr(0, 0, "You pressed g!")
 		pygame.mixer.music.load("wow.mp3")
 		pygame.mixer.music.play()
 	else:
