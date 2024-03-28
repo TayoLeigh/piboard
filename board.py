@@ -75,7 +75,7 @@ while True:
 		screen.addstr(0, 0, "You pressed g!")
 		pygame.mixer.music.load("Sound14Escaped.mp3")
 		pygame.mixer.music.play()
-		elif event == ord(' '):
+	elif event == ord(' '):
 		screen.clear()
 		screen.addstr(0, 0, "You pressed space!")
 		pygame.mixer.music.load("Sound9Chimes.mp3")
