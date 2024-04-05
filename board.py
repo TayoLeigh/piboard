@@ -43,7 +43,7 @@ while True:
 	elif event == curses.KEY_RIGHT:
 		screen.clear()
 		screen.addstr(0, 0, "You pressed right!")
-		pygame.mixer.music.load("Sound4DoorSlam.mp3")
+		pygame.mixer.music.load("Sound10Blanket.mp3")
 		pygame.mixer.music.play()
 	elif event == ord('w'):
 		screen.clear()
@@ -78,7 +78,7 @@ while True:
 	elif event == ord(' '):
 		screen.clear()
 		screen.addstr(0, 0, "You pressed space!")
-		pygame.mixer.music.load("Sound9Chimes.mp3")
+		pygame.mixer.music.load("Izzy.mp3")
 		pygame.mixer.music.play()
 	else:
 		screen.clear()
